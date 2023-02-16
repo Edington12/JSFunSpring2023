@@ -3,10 +3,13 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+//let numerOfLikes = 57;
+//numberOfLikes = 58;
 
 // This is throwing an error. Do you know why?
-const numberOfLikes = 57; // Change me
+let numberOfLikes = 57; // Change me
 
 // DO NOT CHANGE THE CODE BELOW
 
 numberOfLikes = 58;
+//console.log(numberOfLikes);
