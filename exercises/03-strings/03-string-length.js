@@ -9,5 +9,6 @@ const str = "bananas"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-const strLength ="bananas";
-console.log(strlength.length);
+const strLength = str.length;
+//const strLength ="str";
+//console.log(strlength.length);
