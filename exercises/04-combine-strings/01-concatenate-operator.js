@@ -1,5 +1,5 @@
 let bookTitle = "Harry Potter and the Sorcerer's Stone";
-let author = "J. K. Rowling";
+let author = " J. K. Rowling";
 
 /**
  * Use the concatenation operator (the plus sign) to solve this problem.
@@ -16,3 +16,5 @@ let author = "J. K. Rowling";
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const bookInfo = (bookTitle + " by " + author);
+console.log(bookInfo);

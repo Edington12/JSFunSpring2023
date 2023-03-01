@@ -1,5 +1,5 @@
 let bookTitle = "Harry Potter and the Sorcerer's Stone";
-let author = "J. K. Rowling";
+let author = " J. K. Rowling";
 
 /**
  * This exercise is the same as the previous, except you will use template literals to solve this problem.
@@ -16,3 +16,5 @@ let author = "J. K. Rowling";
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const bookInfo = (`${bookTitle} by ${author}`);
+//console.log(bookInfo); 
