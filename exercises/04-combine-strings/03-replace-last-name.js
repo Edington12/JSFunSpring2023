@@ -26,8 +26,8 @@ let lastName = fullName.substring(lastNameDetect + 1);// Start after the space -
 //console.log(lastName);
 let newFirstName = fullName.substring(0, lastNameDetect); /* Start with the 1st character, stop before the 4th spot*/
 //console.log(newFirstName); 
-let newLastName = lastName.replace(lastName, "Fernandez");
-let fullName = `${newFirstName} ${newLastName}`;
+newLastName = lastName.replace(lastName, "Fernandez");
+fullName = `${newFirstName} ${newLastName}`;
 //console.log(`"${fullName}"`);
 
 

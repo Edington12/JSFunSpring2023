@@ -6,5 +6,7 @@ let answer = "55"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-const answerNum = parseInt(answer);
+//const answerNum = parseInt(answer);
 //console.log(answerNum);
+answer = parseInt(answer);
+//console.log(answer);
