@@ -13,3 +13,10 @@ let total;
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+if (tip > 0) {
+  console.log(total = (subtotal + (subtotal * tip)))
+}
+  else {
+    console.log(total = subtotal);
+
+  };

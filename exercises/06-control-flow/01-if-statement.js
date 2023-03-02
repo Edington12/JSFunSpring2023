@@ -17,3 +17,14 @@ let isBuyingDrink = true; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+/*if (isBuyingDrink === true) {
+  console.log(parseFloat(total) + parseFloat(drink))
+}
+  else {
+    console.log(parseFloat(burger))
+  };*/
+
+if (isBuyingDrink === true) {
+//  total += drink;
+  total = total + drink;
+};
