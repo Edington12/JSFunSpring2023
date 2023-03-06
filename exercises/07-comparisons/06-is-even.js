@@ -9,9 +9,11 @@ let num = 8; // e.g.
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 let isEven;
-if (num % 2 === 0) {
+if (num % 2 === 0) { //remainder of ZERO = EVEN Numbers
   isEven = true; 
 }
   else {
     isEven = false;
   }
+
+//let isEven = num % 2 === 0;
