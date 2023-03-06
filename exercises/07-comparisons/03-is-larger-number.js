@@ -10,6 +10,16 @@ let num2 = 20; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-const isLargerNumber = () => {
-  
+/*const isLargerNumber = () => {
+
+}*/
+let isLargerNumber;
+if (num2 > num1) {
+  isLargerNumber = true;
 }
+  else {
+    isLargerNumber = false;
+  };
+/*else if (num1 > num2) {
+  isLargerNumber = false;
+} else if ( )*/

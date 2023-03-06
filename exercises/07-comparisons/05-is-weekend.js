@@ -9,6 +9,15 @@ let day = "Saturday";
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-const isWeekend = () => {
-  
+//let isWeekend = day === "Saturday"  || day === "Sunday";
+
+let isWeekend;
+
+if (day === "Saturday" || day === "Sunday") {
+  isWeekend = true;
 }
+  else {
+    isWeekend = false;
+  }
+
+
