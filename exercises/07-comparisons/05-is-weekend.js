@@ -9,3 +9,6 @@ let day = "Saturday";
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const isWeekend = () => {
+  
+}
