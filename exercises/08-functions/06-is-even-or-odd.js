@@ -12,16 +12,18 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-const isEvenOrOdd = (num) => {
+/*const isEvenOrOdd = (num) => {
   if (num % 2 === 0)
 }
-  if (num)
+  if (num)*/
 
-/*let isEvenOrOdd = (num) => {
-    if (num % 2 === 0) 
-  {    
-    return 'even';  
+let isEvenOrOdd = (num) => {
+   if (num % 2 === 0) 
+  {
+    return 'even';
   } else
-   {   
-     return 'odd'; 
-     }};isEvenOrOdd(15);
+   {
+     return 'odd';
+     }};
+     
+  isEvenOrOdd(15);
