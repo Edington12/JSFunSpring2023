@@ -18,3 +18,7 @@ const returnGreeting = (name) => {
 }
 returnGreeting ("Michele");
 //console.log(returnGreeting);
+
+//another way to do it on 1 line
+
+//const returnGreeting = (name) => `Hello ${name}!`;

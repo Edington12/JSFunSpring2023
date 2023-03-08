@@ -21,3 +21,6 @@ const multiply = (num1, num2) => {
 }
 let answer = multiply(5);
 //console.log(answer);
+
+// can also write this on one line
+//

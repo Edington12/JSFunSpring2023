@@ -16,10 +16,20 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-const lowerCaseString = (name) => {
-  
+const lowerCaseString = (str) => {
+  if (typeof str !== "string") {
+    return "Not a string";
 } 
-if (lowerCaseString === "") {
-  return ()
-} 
-    else(end??)
+    else
+      return str.toLowerCase();
+};
+
+  console.log(Michele);
+
+
+  /*const lowerCaseString = (str) => {
+  if (typeof str !== "string"){
+    return undefined;
+  }
+  return str.toLowerCase();
+};*/
