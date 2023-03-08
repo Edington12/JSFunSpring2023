@@ -12,3 +12,7 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const isEvenOrOdd = (num) => {
+
+}
+  if (num)

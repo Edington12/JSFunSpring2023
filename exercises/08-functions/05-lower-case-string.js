@@ -16,3 +16,10 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const lowerCaseString = (name) => {
+  
+} 
+if (lowerCaseString === "") {
+  return ()
+} 
+    else(end??)
