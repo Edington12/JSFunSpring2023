@@ -9,10 +9,15 @@
  * @param {number} num2
  * @returns {number} num1 x num2
  *
- * @example timesFive(5); // 25
+ * @example timesFive(5); // 25 
  * @example timesFive(2); // 10
  * @example timesFive(0); // 0
  * You should use arrow syntax.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const multiply = (num1, num2) => {
+  return num1 * num2;
+}
+let answer = multiply(5);
+//console.log(answer);
