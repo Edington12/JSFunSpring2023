@@ -22,3 +22,4 @@ let results = [
 let [] = results;
 const place = (results.indexOf("Jian Hou") + 1);
 console.log(place);
+//let place = results.indexOf("Jian Hou" + 1);
