@@ -18,4 +18,7 @@ let results = [
  * Your answer should still work when the names are in a different order.
  */
 
-// WRITE YOUR ANSWER BELOW THIS LINE
+// WRITE YOUR ANSWER BELOW THIS LINE 
+let [] = results;
+const place = (results.indexOf("Jian Hou") + 1);
+console.log(place);
