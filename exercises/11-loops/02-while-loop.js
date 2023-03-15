@@ -10,11 +10,17 @@
 // WRITE YOUR ANSWER BELOW THIS LINE
 //const myNumbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 let counter = 0;
-while (counter <= 90) {
-  console.log(counter + 10); 
-  counter = counter + 10;
+ while (counter <= 90) {
+   console.log(counter + 10); 
+   counter = counter + 10;
 }
   //counter ++;
+
+/*let counter = 0;
+  while (counter <= 90) { 
+    counter = counter + 10;
+    console.log(counter); 
+  }*/
 
   
   

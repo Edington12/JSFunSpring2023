@@ -11,7 +11,8 @@ let string = "racecar";
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-const isPalindrome = string.split(",");
-console.log(isPalindrome);
+let reversed = str.split("").reverse().join("");
+const isPalindrome = reversed === str;
+//console.log(isPalindrome);
 
 
