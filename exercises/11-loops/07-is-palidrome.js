@@ -11,3 +11,7 @@ let string = "racecar";
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const isPalindrome = string.split(",");
+console.log(isPalindrome);
+
+
