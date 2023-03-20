@@ -15,5 +15,6 @@ const clothes = {
   console.log(clothes.hat);
 };*/
 //console.log(clothes.hat);
-const typeOfItems = "hat";
-console.log(clothes[typeOfItems]);
+//const typeOfItems = "hat";
+//console.log(clothes[typeOfItems]);
+let hat = clothes.hat;

@@ -13,8 +13,10 @@ const obj2 = { lastName: "Kent" }; // e.g.
  */ 
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-const myObject = Object.entries(obj1) + " " + Object.entries(obj2);
+//const myObject = Object.entries(obj1) + " " + Object.entries(obj2);
 //const myObject = Object.entries(obj1 + obj2);
-console.log(myObject);
-//for (let [])
-
+//console.log(myObject);
+//const myObject = {...obj1,...obj2};
+//console.log(myObject)
+const myObject = {...obj1,...obj2};
+console.log(myObject)

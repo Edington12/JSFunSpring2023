@@ -32,14 +32,19 @@ let linkedInLink = "https://linkedin.com/profile"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-const graduate = {
+/*const graduate = {
   name: "",
   graduationYear: "",
   skills: [0,1,2],
   links: {
-    githubLink:"https://github.com/example/profile",
+    github: githubLink:"https://github.com/example/profile",
     linkedInLink: "https://linkedin.com/profile"
   }
 };
-  console.log(graduate);
-  
+  console.log(graduate);*/
+  const graduate = {
+    name,
+    graduationYear,
+    skills,
+    links: {github: githubLink, linkedIn: linkedInLink}
+  };
