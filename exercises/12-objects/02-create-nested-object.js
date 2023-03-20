@@ -24,9 +24,22 @@ let linkedInLink = "https://linkedin.com/profile"; // e.g.
  *     linkedIn: "https://linkedin.com/profile"
  *   }
  * }
+ * 
+ * 
  *
  * Your answer should work with "name", "graduation", and the other variables above
  * are different values.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const graduate = {
+  name: "",
+  graduationYear: "",
+  skills: [0,1,2],
+  links: {
+    githubLink:"https://github.com/example/profile",
+    linkedInLink: "https://linkedin.com/profile"
+  }
+};
+  console.log(graduate);
+  

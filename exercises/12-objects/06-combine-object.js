@@ -10,6 +10,11 @@ const obj2 = { lastName: "Kent" }; // e.g.
  * // { firstName: "Clark", lastName: "Kent" }
  *
  * Your answer should still work when "obj1" and "obj2" are different objects.
- */
+ */ 
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const myObject = Object.entries(obj1) + " " + Object.entries(obj2);
+//const myObject = Object.entries(obj1 + obj2);
+console.log(myObject);
+//for (let [])
+

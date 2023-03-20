@@ -11,3 +11,9 @@ const clothes = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+/*const hat = ({clothes, hat}) => {
+  console.log(clothes.hat);
+};*/
+//console.log(clothes.hat);
+const typeOfItems = "hat";
+console.log(clothes[typeOfItems]);

@@ -8,3 +8,10 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const myDog = {
+  name: "Bailey",
+  breed: "German Shepard",
+  age: 2,
+  owners: ["Michele", "Michael"]
+};
+  console.log(myDog);

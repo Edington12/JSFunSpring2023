@@ -15,3 +15,6 @@ let student = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+student.name = "Michele Edington";
+student.skills = ["JavaScript", "Web Design"];
+console.log(student);

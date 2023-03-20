@@ -17,3 +17,7 @@ const links = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+for (let [animals, links] of Object.entries(links)) {
+  const html = animals + " <a href=" + links + "</a>";
+  console.log(html);
+}
