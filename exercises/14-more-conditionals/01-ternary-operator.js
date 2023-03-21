@@ -11,3 +11,12 @@ let num = 8; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+/*const isEvenOrOdd = num => 
+? (num % 2 === 0)
+: "Is an odd number";
+console.log(isEvenOrOdd);*/
+
+const isEvenOrOdd = (num % 2 === 0)
+? "even" 
+: "odd";
+console.log(isEvenOrOdd);
