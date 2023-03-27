@@ -20,6 +20,10 @@ const capitalizeString = (str) => {
  */
 const capitalizeArray = (originalArray, callback) => {
   // WRITE YOUR ANSWER IN HERE
+  const result = () => {
+    return result.toUpperCase();  
+  }
+  
 };
 
 // Uncomment me to test your answer in Quokka

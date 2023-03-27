@@ -38,6 +38,11 @@ const isNumberTwoDigits = (num) => {
 
 const findFirst = (arrayOfNum, callback) => {
   // WRITE YOUR ANSWER IN HERE
+//NO CLUE what I am doing :(
+
+  for (/** */) {
+    callback(/*something in the array???)*/
+  }
 };
 
 /**
