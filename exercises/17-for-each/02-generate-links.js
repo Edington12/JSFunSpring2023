@@ -24,3 +24,21 @@ const links = [
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+/*const htmlStr = (links, i) => {
+  console.log(`${i + 1} ${links}`);
+*/
+/*links.forEach(links, i) => {
+  console.log(`${i + 1} ${links}`);
+
+}*/
+
+const createLink = (link) => {
+  htmlStr += `<a href="${link}"> ${num + 1}. ${link}<a/`;
+  
+  
+};
+
+links.forEach(createLink);
+console.log(htmlStr);
+
+

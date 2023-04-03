@@ -20,11 +20,15 @@ const capitalizeString = (str) => {
  */
 const capitalizeArray = (originalArray, callback) => {
   // WRITE YOUR ANSWER IN HERE
-  const result = () => {
-    return result.toUpperCase();  
-  }
-  
+  let result = [];
+    for (let i=0; i < originalArray.length; i++) {
+      let capitalizeString = callback(originalArray[i]);
+      result.push(capitalizeString);  
+  }   
+  return result;
+
 };
+
 
 // Uncomment me to test your answer in Quokka
 // const result = capitalizeArray(['hello', 'world'], capitalizeString);

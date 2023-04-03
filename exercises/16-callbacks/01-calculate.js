@@ -28,12 +28,18 @@ const subtract = (num1, num2) => {
 
 const calculate = (num1, num2, callback) => {
   // WRITE YOUR ANSWER IN HERE
-    return(add)(num1, num2);
+    //return(add)(num1, num2);
     //return(subtract)(num1, num2);
+    return callback (num1, num2);
+    /*if (callback === add) {
+      return add(num1, num2)
+    }
+    else if (callback === subtract) {
+      return subtract(num1, num2);
+      
+    }*/
   };
   
-
-
 
 // Uncomment me to test in Quokka
 console.log( calculate(5, 10, add) );

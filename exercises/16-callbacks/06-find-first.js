@@ -45,6 +45,30 @@ const findFirst = (arrayOfNum, callback) => {
   }
 };
 
+/*const findFirst = (arrayOfNum, callback) => {
+
+  // WRITE YOUR ANSWER IN HERE
+
+  for (let i = 0; i < arrayOfNum.length; i++){
+
+    const example = callback(arrayOfNum[i]);
+
+  if (example){
+
+    return arrayOfNum[i];
+
+  }
+
+}
+
+};*/
+
+
+
+
+
+
+
 /**
  * Uncomment me to test your answer in Quokka
  * console.log( findFirst([1, 3, 7, 8, 20], isNumberEven) )

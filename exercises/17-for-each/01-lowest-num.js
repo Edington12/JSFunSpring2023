@@ -9,3 +9,27 @@ const numbers = [1, 10, -2, 3, 4]; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+/* = (number) => {
+  console.log(lowestNumber)
+};*/
+
+numbers.forEach(number) => {
+  if (number < lowestNumber) {
+    lowestNumber = number 
+  }
+};
+
+
+// 1
+/*const findLowestNumber = (num) => {
+  if (num < lowestNumber) {
+    lowestNumber = num;
+  }
+};
+
+numbers.forEach(findLowestNumber);*/
+
+// 2
+/*numbers.forEach((num) => {
+  if (num < lowestNumber) lowestNumber = num;
+});*/

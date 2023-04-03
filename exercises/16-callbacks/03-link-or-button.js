@@ -18,11 +18,11 @@ const createButton = (text) => {
  */
 
 // CHANGE SOMETHING WITH THE FUNCTION DECLARATION
-const createCallToAction = (clickableText) => {
+const createCallToAction = (clickableText, callback) => {
   // CHANGE SOMETHING INSIDE THIS FUNCTION
   return (
     "<div>Limited Time: Members Save 30%<br>" +
-    createLink(clickableText) + createButton(clickableText)
+    callback(clickableText) +
     "</div>"
   );
 };

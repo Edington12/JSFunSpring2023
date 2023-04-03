@@ -20,6 +20,7 @@ const format = (string1, string2) => {
 const formatString = (string1, string2, callback) => {
   // WRITE YOUR ANSWER IN HERE
   return(format)(string1, string2);
+
   
 };
 
