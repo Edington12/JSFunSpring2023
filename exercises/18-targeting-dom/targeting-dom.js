@@ -12,4 +12,12 @@
  */
 (function () {
   // Put your answers in here
+  document.querySelector("#Li")
+  console.log(document.querySelector("#Li"));
+  const yellowBg = document.querySelectorAll(".bg-warning")
+  yellowBg.forEach((yellow) => {
+    console.log(yellow);
+  });
+  document
+  
 })();
