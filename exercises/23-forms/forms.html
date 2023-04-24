@@ -38,20 +38,21 @@
         <!-- Capture what the user is type here -->
         <input
           type="text"
+          id ="mysteryInput"
           class="form-control mb-3"
           placeholder="Enter mystery text here"
           aria-label="Enter mystery text here"
         />
 
         <!-- Display whatever text the user types in the textbox above inside the <div></div> -->
-        <div class="card bg-warning"></div>
+        <div class="card bg-warning" id="inputDisplay"></div>
       </div>
     </section>
 
     <section class="bg-dark pt-4 pb-2 flex-fill">
       <div class="container">
         <!-- Handle this form -->
-        <form class="form-group">
+        <form class="form-group" id="searchForm">
           <div class="input-group">
             <input
               type="search"
@@ -66,7 +67,7 @@
         </form>
 
         <!-- Display "No results for ___ found" inside of this <p></p> -->
-        <p class="text-white"></p>
+        <p class="text-white" id="searchResults"></p>
       </div>
     </section>
 

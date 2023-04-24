@@ -10,9 +10,21 @@
    * it should display what the user is typing in the <div></div> tags below.
    */
   // Write your answer here
+    const textBox = document.querySelector("#mysteryInput");
+
+    const displayInput = (event) => {
+      const inputDisplay = document.querySelector("inputDisplay");
+      inputDisplay.textContent = event.target.value;
+    }
+    textBox.addEventListener("input", event => {
+      console.log(event.target.value);
+  
+    });
+    
+
   /**
    * Problem 2: Display the results of the world's most pointless search engine.
-   *
+  
    * When the user types in the textbook and either clicks "Search" button or hits the enter key,
    * display the message "No results for ___ found" inside of this <p></p> below.
    * For example, if the user searches for "Indian Ocean", display "No results for Indian Ocean found".
@@ -23,9 +35,14 @@
    * and you must prevent the page from refreshing when the form is submitted.
    */
   // Write your answer here
+    const searchForm = document.querySelector("#searchForm");
+    searchForm.addEventListener("input", event => {
+      event.preventDefault();
+      console.log()
+    });
+    
   /**
    * Problem 3: Agree to the terms and conditions
-   *
    * Whenever the user clicks the "Continue" button, if she has not agreed to the terms,
    * the error "You must agree to the terms and conditions" should appear
    * and the label "I Agree to the Terms and Conditions" should turn red.
@@ -34,4 +51,6 @@
    * To start, you will need to hide some element on the page and change the input's classes.
    */
   // Write your answer here
+    
+
 })();
