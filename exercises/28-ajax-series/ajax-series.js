@@ -17,4 +17,38 @@
    *
    * You must make two AJAX request to solve this problem.
    */
+  const button = document.querySelector("#dropdown");
+  button.addEventListener("click", async () => {
+    let message = "";
+  try {
+    const response = await axios.request({
+      method: "GET",
+      url: "https://rickandmortyapi.com/api/character",
+    })
+    message = response.data[0];
+
+  } catch (err) {
+    console.log("So sorry, an error has occurred");
+  }
+
+  try {
+    const response = await axios.request({
+      method: "GET",
+      url: "https://rickandmortyapi.com/api/2",
+    })
+    message = response.data[1];
+    //where do I put the information in the container??
+    //and how do I do 2 requests??
+    //and how do I look up the api information if not using thunder client?
+
+    
+  } catch (err) {
+    console.log("So sorry, another error has occurred");
+    
+  }
+  //display on page??
+  const message2 = document.querySelector("#dropdown");
+  message.textcontent = dropdown;
+
+
 })();
