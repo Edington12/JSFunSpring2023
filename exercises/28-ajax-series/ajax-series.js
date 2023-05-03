@@ -1,4 +1,4 @@
-(function () {
+(async function () {
   /**
    *
    * As a user, I should be able to a pick Rick and Morty character from a drop-down, and it should display an image of that character.
@@ -18,6 +18,9 @@
    * You must make two AJAX request to solve this problem.
    */
   const button = document.querySelector("#dropdown");
+  const displayPic = document.querySelector("#");
+  const displayName = document.querySelector("#")
+ 
   button.addEventListener("click", async () => {
     let message = "";
   try {

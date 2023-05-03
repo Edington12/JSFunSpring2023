@@ -1,4 +1,4 @@
-!(function () {
+!(async function () {
   /**
    * You will be using the Dummy Product API. You can find the documentation here:
    * @see https://dummyjson.com/docs/products
@@ -41,4 +41,103 @@
    *   </td>
    * </tr>
    */
+    //const products = document.querySelector()
+    //let items = 
+    /*try {
+      const productData = await*/
+
+
+      const productListings = document.querySelector("#productTableBody");
+      //console.log(productTableBody);
+
+    let productList;  
+    axios ({
+      method: "GET",
+      url: "https://dummyjson.com/docs/products",
+    })
+      .then((response) => {
+        products = response.data.results;
+        products.data.forEach((product) => {
+          const input = document.createElement("#productTableBody");
+          option.value = product.id;
+          
+        });
+
+
+      }
+      
+      function grabProductListings () {
+        
+        while (productTableBody.firstChild) {
+          productTableBody.removeChild(productTableBody.firstChild);
+
+        }
+      
+
+
+
+      //add products to the table - array
+
+      dummyjson.forEach((row) => {
+        //console.log(row)
+          const tr = document.createElement("tr");
+
+          row.forEach((cell) => {
+            //console.log(cell);
+            const td = document.createElement("td");
+            td.textContent = cell;
+            tr.appendChild(td);
+            //console.log(cell);
+          });
+
+          productTableBody.appendChild(tr);
+          productList.add('btn', 'btn-danger', 'btn-sm', 'delete-product-btn');
+      });
+    }
+
+
+}
+
+
+
+document.addEventListener("", () => {
+  productListings(); 
+});
+
+
+
+
+
+      /*fetch ("https://dummyjson.com/docs/products")*/
+      /*returns a promise*/
+       /* .then ((response) => {
+
+          if(!response.ok) {
+            alert (`An error has occured: ${response.status}`);
+          }
+        
+          return response.text();
+        })
+
+        .then((text) => productDisplayInfo.textContent = text)
+
+        .catch((error) => productDisplayInfo.textContent = (`another error has occured: ${error}`);*/
+
+      /*data.data.forEach((productId) => {
+        display
+      }*/
+      //updating the product info to row
+      /*function productAddRow () {
+          if ($("#productTableBody").length == 0) {
+            $("#productTable").append("<tbody></tbody");
+          }
+
+          $("#productTableBody tbody").append("<tr> +
+              "<td>" + $("#"))
+      }*/
+
+      
+
+
+  
 })();
