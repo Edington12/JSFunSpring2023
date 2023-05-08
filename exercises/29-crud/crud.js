@@ -41,6 +41,26 @@
    *   </td>
    * </tr>
    */
+
+  const products = [{
+    
+  }]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //const products = document.querySelector()
     //let items = 
     /*try {
@@ -135,6 +155,48 @@ document.addEventListener("", () => {
           $("#productTableBody tbody").append("<tr> +
               "<td>" + $("#"))
       }*/
+
+
+
+      const addRows = (products) => {
+        // Target the table
+        const tbody = document.querySelector("#productTableBody");
+        products.forEach((product) => {
+          let row = `<tr>
+          <td>${product.id}</td>
+          <td>${product.title}</td>
+          <td>${product.description}</td>
+          <td>${product.price}</td>
+          <td>${product.discountPercentage}</td>
+          <td>${product.rating}</td>
+          <td>${product.stock}</td>
+          <td>${product.brand}</td>
+          <td>${product.category}</td>
+          <td>
+            <button class="btn btn-danger btn-sm delete-product-btn">Delete</button>
+          </td>
+        </tr>`;
+          // Add the HTML to the page
+          tbody.insertAdjacentHTML("beforeend", row);
+        });
+      };
+      // Make the request to get the data
+      fetch("https://dummyjson.com/products")
+        .then((res) => res.json())
+        .then((data) => {
+          // Drill down in the result and find the product array of objects
+          const products = data.products;
+          // Call on "addRows" to display the table
+          addRows(products);
+          const buttons = document.querySelectorAll(".delete-product-btn");
+          // Loops through each button and attach an event
+          buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+              alert("you clicked me!");
+            });
+          });
+        });
+    })();
 
       
 

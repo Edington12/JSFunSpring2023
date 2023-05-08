@@ -41,6 +41,14 @@ describe("Unit Testing", () => {
   /**
    * Write a unit test for `subtract` here.
    */
+  describe("subtract", () => {
+    it("should subtract two numbers", () => {
+      const sub = sub(2, 3);
+      expect(sub).to.equal(-1);
+    });
+  });
+
+  
 
   /**
    * Write two tests for `isEvenNumber` here:
@@ -63,6 +71,18 @@ describe("Unit Testing", () => {
         { name: "Aiden", age: 10 },
         { name: "Chloe", age: 16 },
       ];
+
+      describe("isEvenNumber", () => {
+        it("should return true for an even number", () => {
+          const isEvenNumber = (people, age) =>
+          return object.values(people, age)
+          if age % 2 === 0 then 
+            return "even"
+            else
+              return "odd"
+        })
+      }
+      
     });
 
     // Remove the `.skip` when you are ready to write this test
