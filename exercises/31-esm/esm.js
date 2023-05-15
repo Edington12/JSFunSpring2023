@@ -1,3 +1,21 @@
+import greet = () => {
+  
+}
+
+
+
+
+
+
+import {multiply, result} from 
+".\Web Design Class (Main)\JavaScript Fundamentals 2023\test\31-esm\esm-multiply.js"
+
+greet();
+console.log(result);
+
+
+
+
 /**
  * The next two exercises uses ES modules (ESM).
  * ES modules allow you break up your code into multiple files (or modules), and then share code between different files.

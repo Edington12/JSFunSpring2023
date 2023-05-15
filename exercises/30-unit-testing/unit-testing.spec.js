@@ -96,6 +96,8 @@ describe("Unit Testing", () => {
         { name: "Emma", age: 17 },
         { name: "Ethan", age: 8 },
       ];
+      
+      expect(findAdults(people)).to.be.an("array").that.is.empty;
     });
   });
 });

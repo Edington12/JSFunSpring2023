@@ -46,21 +46,6 @@
     
   }]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     //const products = document.querySelector()
     //let items = 
     /*try {
@@ -162,6 +147,7 @@ document.addEventListener("", () => {
         // Target the table
         const tbody = document.querySelector("#productTableBody");
         products.forEach((product) => {
+          //console.log(products);
           let row = `<tr>
           <td>${product.id}</td>
           <td>${product.title}</td>
@@ -196,7 +182,11 @@ document.addEventListener("", () => {
             });
           });
         });
-    })();
+          const deleteButtons = document.querySelectorAll(".delete-product-btn");
+
+          deleteButtons.forEach((productId) => {
+            productID.addEventListener("click", () => {
+              Message.textContent = `Thank you for purchasing the ${product.title} product.`;
 
       
 
