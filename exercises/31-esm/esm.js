@@ -1,20 +1,5 @@
-import greet = () => {
-  
-}
-
-
-
-
-
-
-import {multiply, result} from 
-".\Web Design Class (Main)\JavaScript Fundamentals 2023\test\31-esm\esm-multiply.js"
-
-greet();
-console.log(result);
-
-
-
+import greet from "./greet.js";
+import { multiply } from "./multiply.js";
 
 /**
  * The next two exercises uses ES modules (ESM).

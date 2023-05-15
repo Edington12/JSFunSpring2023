@@ -1,6 +1,6 @@
 
-export const multiply = (a, b) => {
+const multiply = (a, b) => {
   return a * b;
 };
 
-export const result = {};
+export {multiply};
